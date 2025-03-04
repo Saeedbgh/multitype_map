@@ -1,0 +1,2 @@
+# multitype_map
+MultiTypeHashMap
