@@ -13,11 +13,4 @@ public class MultiTypeHashMap<K> extends HashMap<K, Object> {
         return valueType.cast(value);
     }
 
-    public Object put(K key, Object object) {
-        super.put(key, object);
-        return object;
-    }
-
-
-
 }
